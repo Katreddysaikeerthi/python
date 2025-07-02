@@ -100,3 +100,6 @@ for x in words:
         res=i+res
     v[x]=res 
 print(v)   
+
+#output:
+{'cat': 'tac', 'dog': 'god', 'bat': 'tab'}
