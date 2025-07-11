@@ -8,7 +8,9 @@ for x in v:
     else:
         res+=x
 print(res)
-#output:ei
+
+#output:
+ei
 
 #2. Replace Vowels with ‘*’
 v="saikeerthi"
@@ -19,7 +21,9 @@ for x in v:
     else:
         res+=x
 print(res)
-#output:s**k**rth*
+
+#output:
+s**k**rth*
 
 #3. Convert a Snake_Case String to CamelCase.
 v="python_developer"
@@ -32,7 +36,9 @@ for x in range(len(v)):
     else:
         res+=v[x]
 print(res)
-#output:pythonDeveloper
+
+#output:
+pythonDeveloper
 
 #4. Use reduce() to Find Product of List Elements
 from functools import reduce
@@ -40,3 +46,5 @@ l=[10,20,30,2,3,4,8,9]
 result=reduce(lambda a,b:a*b ,l)
 print(result)
 
+#output:
+10368000
